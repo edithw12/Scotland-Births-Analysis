@@ -22,6 +22,12 @@ File format: Excel
 # Purpose
 This dataset was prepared and used for educational purposes as part of my data analytics portfolio.
 
+# Data Cleaning and Preparation
+Before importing the data into SQL, the following steps were taken in Excel:
+a. Removed unnecessary title rows and metadata from the top of each sheet so column headers moved to Row 1
+b. Standardised column names (such as "Year", "Area Name", "All Ages").
+c. Split the single Excel workbook into three separate CSV files
+
 
 
 
