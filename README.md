@@ -2,7 +2,7 @@
 A data analysis project exploring births registration statistics in Scotland, examine trends by mother's age at birth, sex, council area and registration seasonality.
 
 # The Project Question
-How birth patterns across Scotland's council areas changed over recent decades, in terms by mother's age at birth, sex, and seasonal timing, and what this might mean for local service planning such as maternity services, school places.
+How have demographic shifts in birth patterns (mother's age, sex, seasonality) varied across Scotland's Council areas over the last 30 years, and how can these trends inform local public service planning (e.g., maternity ward staffing and school cap[acity)? 
 
 # Data Sources
 Data sourced form the National Records of Scotland (NRS):
@@ -26,7 +26,7 @@ This dataset was prepared and used for educational purposes as part of my data a
 Before importing the data into SQL, the following steps were taken in Excel:
 a. Removed unnecessary title rows and metadata from the top of each sheet so column headers moved to Row 1
 b. Standardised column names (such as "Year", "Area Name", "All Ages").
-c. Split the single Excel workbook into three separate CSV files
+c. Split the single Excel workbook into three separate CSV files ('births_age.csv', 'births_sex.csv', 'births_month.csv') to prepare them for SQL database import.
 
 
 
